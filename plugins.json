@@ -1,0 +1,46 @@
+[
+    {
+      "id": "pf4JStagePlugin",
+      "description": "Example of a plugin extending the Spinnaker backend PF4J extension points",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "date": "Jan 29, 2019 11:00: AM",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.0/Armory.RandomWaitPlugin-1.0.0.zip"
+        }
+      ]
+    },
+    {
+      "id": "springExamplePlugin",
+      "description": "Example of a plugin extending the Spinnaker backend with Spring",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "date": "Jan 29, 2019 11:00: AM",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.0/Armory.SpringExamplePlugin-1.0.0.zip"
+        }
+      ]
+    },
+    {
+      "id": "pf4jPluginWithoutExtensionPoint",
+      "description": "Example of a plugin extending the Spinnaker backend PF4J, but without a defined extension points",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "date": "Jan 29, 2019 11:00: AM",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.0/Armory.SillySecretsPlugin-1.0.0.zip"
+        }
+      ]
+    },
+    {
+      "id": "mixedPf4jAndSpringPlugin",
+      "description": "Example of a plugin extending the Spinnaker backend with a mix of PF4J and Spring",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "date": "Jan 29, 2019 11:00: AM",
+          "url": "https://github.com/spinnaker-plugin-examples/mixedPf4jAndSpringPlugin/releases/download/v1.0.0/Armory.MixedPf4jAndSpringPlugin-1.0.0.zip"
+        }
+      ]
+    },
+  ]
