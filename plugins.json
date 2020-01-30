@@ -6,6 +6,7 @@
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
+          "requires": "orca",
           "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.0/Armory.RandomWaitPlugin-1.0.0.zip"
         }
       ]
@@ -17,6 +18,7 @@
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
+          "requires": "orca",
           "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.0/Armory.SpringExamplePlugin-1.0.0.zip"
         }
       ]
@@ -28,6 +30,7 @@
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
+          "requires": "orca",
           "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.0/Armory.SillySecretsPlugin-1.0.0.zip"
         }
       ]
@@ -39,9 +42,9 @@
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
+          "requires": "orca",
           "url": "https://github.com/spinnaker-plugin-examples/mixedPf4jAndSpringPlugin/releases/download/v1.0.0/Armory.MixedPf4jAndSpringPlugin-1.0.0.zip"
         }
       ]
     }
-  ]
-  
+]
