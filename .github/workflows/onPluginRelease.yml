@@ -17,4 +17,5 @@ jobs:
         echo "Event type: ${{ github.event.event_type }}",
         echo "Event: ${{ github.event.client_payload.foo }}",
         echo "payload: ${{ toJson(github.event.client_payload) }}"
+        echo "payload: ${{ toJson(github.event) }}"
         echo "Event path: ${{github.event_path}}"
