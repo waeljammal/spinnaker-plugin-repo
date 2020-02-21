@@ -14,5 +14,5 @@ jobs:
         echo $(pwd),
         echo $(ls),
         echo Git ref: ${{github.ref}},
-        echo Event: ${{github.event}},
+        echo Event: ${{github.event.event_type}},
         echo Event path: ${{github.event_path}}
