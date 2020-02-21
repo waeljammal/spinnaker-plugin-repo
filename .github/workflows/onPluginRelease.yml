@@ -13,6 +13,8 @@ jobs:
         echo On Plugin Release!,
         echo $(pwd),
         echo $(ls),
-        echo Git ref: ${{github.ref}},
-        echo Event: ${{github.event.event_type}},
-        echo Event path: ${{github.event_path}}
+        echo "Git ref: ${{ github.ref }}",
+        echo "Event type: ${{ github.event.event_type }}",
+        echo "Event: ${{ github.event.client_payload.foo }}",
+        echo "payload: ${{ toJson(github.event.client_payload) }}"
+        echo "Event path: ${{github.event_path}}"
