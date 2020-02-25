@@ -16,6 +16,8 @@ jobs:
         echo $(ls),
         echo "Git ref: ${{ github.ref }}",
         echo "Event type: ${{ github.event.action }}",
-        echo "Event payload raw: ${{ github.event.client_payload }}"
-        echo "Event payload: ${{ toJson(github.event.client_payload) }}"
-        echo "Event path: ${{github.event_path}}"
+        echo "Event payload raw: ${{ github.event.client_payload }}",
+        echo "Event payload: ${{ toJson(github.event.client_payload) }}",
+        echo "Event path: ${{github.event_path}}",
+        echo "Go run helloworld: $(go run hello-world.go)",
+        echo "Go version: $(go run addPluginReleaseToRepo.go ${{ github.event.client_payload }})"
