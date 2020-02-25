@@ -13,11 +13,4 @@ jobs:
       - name: echo debug info
         run: |
           echo On Plugin Release!
-          echo "Go version: $(go version)"
-          echo $(pwd)
-          echo $(ls | xargs)
-          echo "Git ref: ${{ github.ref }}"
-          echo "Event type: ${{ github.event.action }}"
-          echo "Event payload: ${{ toJson(github.event.client_payload) }}"
-          echo "Event path: ${{github.event_path}}"
           echo "Go run addPluginReleaseToRepo: $(go run .github/workflows/addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
