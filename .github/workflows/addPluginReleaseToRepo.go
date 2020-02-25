@@ -11,10 +11,11 @@ func main() {
     argsWithProg := os.Args
     fmt.Println(argsWithProg)
 
-    json := os.Args[1]
-    fmt.Println(json)
+    pluginJson := []byte(os.Args[1])
+    fmt.Println(pluginJson)
     var j interface{}
-    err := json.Unmarshal(json, &j)
+    err := json.Unmarshal(pluginJson, &j)
+    fmt.Println(err)
     fmt.Println(j)
 
 }
