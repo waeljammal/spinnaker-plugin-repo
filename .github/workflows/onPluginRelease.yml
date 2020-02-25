@@ -20,5 +20,4 @@ jobs:
           echo "Event type: ${{ github.event.action }}"
           echo "Event payload: ${{ toJson(github.event.client_payload) }}"
           echo "Event path: ${{github.event_path}}"
-          echo "Go run helloworld: $(go run .github/workflows/helloWorld.go)"
           echo "Go run addPluginReleaseToRepo: $(go run .github/workflows/addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
