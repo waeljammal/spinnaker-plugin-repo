@@ -151,5 +151,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.5/springExamplePlugin-v1.0.5.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.SillySecretsPlugin",
+      "description": "An example of a plugin, that provides an extension to an interface that is not an extention point.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "v1.0.5",
+          "date": "2020-02-26T04:38:43.594Z",
+          "requires": "clouddriver\u003e=0.0.0,orca\u003e=0.0.0",
+          "sha512sum": "ad5b85492906444710d9a0818dd82055f266f45f91be52270063910b0e22e5bf51254b55fea2f586fab35b3bee2e5dd43a51c55ce9ac638cee2971ba96e4c958",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.5/pf4jPluginWithoutExtensionPoint-v1.0.5.zip"
+        }
+      ]
     }
   ]
