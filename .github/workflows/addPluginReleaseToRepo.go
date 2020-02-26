@@ -58,8 +58,8 @@ func main() {
 func addReleaseToPlugins(releaseEvent PluginReleaseEvent, existingPlugins []Plugin) []Plugin {
     releasedPlugin := releaseEvent.Released
     release := releasedPlugin.Releases[0]
-    version := release.Version[1:]
-    release.Url = "https://github.com/" + releaseEvent.Org + "/" + releaseEvent.Repo + "/releases/download/v" + version + "/" + releaseEvent.Repo + "-" + version + ".zip"
+    version := release.Version
+    release.Url = "https://github.com/" + releaseEvent.Org + "/" + releaseEvent.Repo + "/releases/download/" + version + "/" + releaseEvent.Repo + "-" + version + ".zip"
     releasedPlugin.Releases = []Release {
         release,
     }
