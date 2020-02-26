@@ -35,7 +35,7 @@ func TestAddingReleaseToEmptyRepo(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo1/releases/download/v1.2.0/pluginId1-1.2.0.zip",
+            "https://github.com/org1/repo1/releases/download/v1.2.0/repo1-1.2.0.zip",
         }}
     expectedPlugins := []Plugin {
         {
@@ -77,7 +77,7 @@ func TestAddingReleaseToRepoWithOtherPlugins(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo0/releases/download/v1.0.0/pluginId0-1.0.0.zip",
+            "https://github.com/org1/repo0/releases/download/v1.0.0/repo0-1.0.0.zip",
         }}
     existingPlugins := []Plugin {
         {
@@ -96,7 +96,7 @@ func TestAddingReleaseToRepoWithOtherPlugins(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo1/releases/download/v1.2.0/pluginId1-1.2.0.zip",
+            "https://github.com/org1/repo1/releases/download/v1.2.0/repo1-1.2.0.zip",
         }}
     expectedPlugins := []Plugin {
         existingPlugins[0],
@@ -139,7 +139,7 @@ func TestAddingReleaseToRepoWithExistingReleases(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo0/releases/download/v1.0.0/pluginId1-1.0.0.zip",
+            "https://github.com/org1/repo0/releases/download/v1.0.0/repo1-1.0.0.zip",
         }}
     existingPlugins := []Plugin {
         {
@@ -158,7 +158,7 @@ func TestAddingReleaseToRepoWithExistingReleases(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo1/releases/download/v1.2.0/pluginId1-1.2.0.zip",
+            "https://github.com/org1/repo1/releases/download/v1.2.0/repo1-1.2.0.zip",
         },
         existingReleases[0],
     }
@@ -204,7 +204,7 @@ func TestAddingReleaseToRepoWithTheSameRelease(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo0/releases/download/v1.0.0/pluginId1-1.0.0.zip",
+            "https://github.com/org1/repo0/releases/download/v1.0.0/repo1-1.0.0.zip",
         },
         {
             "v1.0.0",
@@ -212,7 +212,7 @@ func TestAddingReleaseToRepoWithTheSameRelease(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo0/releases/download/v1.0.0/pluginId1-1.0.0.zip",
+            "https://github.com/org1/repo0/releases/download/v1.0.0/repo1-1.0.0.zip",
         }}
     existingPlugins := []Plugin {
         {
@@ -231,7 +231,7 @@ func TestAddingReleaseToRepoWithTheSameRelease(t *testing.T) {
             "orca>=0.0.0",
             "asdf",
             "RELEASE",
-            "https://github.com/org1/repo1/releases/download/v1.2.0/pluginId1-1.2.0.zip",
+            "https://github.com/org1/repo1/releases/download/v1.2.0/repo1-1.2.0.zip",
         },
         existingReleases[1],
     }
