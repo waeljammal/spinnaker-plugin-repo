@@ -65,6 +65,14 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
+          "version": "v1.0.10",
+          "date": "2020-02-26T03:45:17.132Z",
+          "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
+          "sha512sum": "f43786ff165e6da4b2e581cc138a94516293f902cf05d48187692a800098322e3718150ec8f3dcd81e201c9948136d3f009cdaf9d6a7039286235387818065c6",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.10/Armory.RandomWaitPlugin-1.0.10.zip"
+        },
+        {
           "version": "v1.0.9",
           "date": "2020-02-26T03:28:46.464Z",
           "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
@@ -79,14 +87,6 @@
           "sha512sum": "fd3b157d429656b7e6c2576a206400ba64f0ac351448d91aa0ed7bedcb4af58f6e2aaf6def20ab2a78b1cb3ae0e11c35ad0b882fcb603dfdb654a23abb2c221a",
           "state": "RELEASE",
           "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.5.dirty-SNAPSHOT/Armory.RandomWaitPlugin-1.0.5.dirty-SNAPSHOT.zip"
-        },
-        {
-          "version": "v1.0.10",
-          "date": "2020-02-24T20:46:40.585Z",
-          "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
-          "sha512sum": "fd3b157d429656b7e6c2576a206400ba64f0ac351448d91aa0ed7bedcb4af58f6e2aaf6def20ab2a78b1cb3ae0e11c35ad0b882fcb603dfdb654a23abb2c221a",
-          "state": "RELEASE",
-          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.10/Armory.RandomWaitPlugin-1.0.10.zip"
         }
       ]
     },
