@@ -5,7 +5,7 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
-          "version": "v1.0.14",
+          "version": "1.0.14",
           "date": "2020-02-26T04:24:32.070Z",
           "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
           "sha512sum": "a6bd3b58e8747acb7c6cfa4d4f06db1c1d0e93b645288b1135607270d75245d0145ef36ca51d7d8d7d34b83e3fd012952400512df259a3ecd3175137d5de327b",
@@ -20,7 +20,7 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
-          "version": "v1.0.5",
+          "version": "1.0.5",
           "date": "2020-02-26T04:37:26.016Z",
           "requires": "orca\u003e=0.0.0",
           "sha512sum": "8d26ddcb3e33fa76770f42724fbe5d4470ea097509cf672469a9ec6e9638fa7e3c2c07c9f709cdebe355750f1a2d8bc4d7811d51d9c0e460982b3d0a3c7860dc",
@@ -35,7 +35,7 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
-          "version": "v1.0.6",
+          "version": "1.0.6",
           "date": "2020-02-26T04:47:30.197Z",
           "requires": "clouddriver\u003e=0.0.0,orca\u003e=0.0.0",
           "sha512sum": "76e241602c253413ef44d0e04a014ebc47d866443760f443b3de60249e4b3b51936646178a8f0dd2eaa96f0c4a5b48209e74a0dea3bf1ba68eae8dc9d0f455b8",
@@ -43,7 +43,7 @@
           "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.6/pf4jPluginWithoutExtensionPoint-v1.0.6.zip"
         },
         {
-          "version": "v1.0.5",
+          "version": "1.0.5",
           "date": "2020-02-26T04:38:43.594Z",
           "requires": "clouddriver\u003e=0.0.0,orca\u003e=0.0.0",
           "sha512sum": "ad5b85492906444710d9a0818dd82055f266f45f91be52270063910b0e22e5bf51254b55fea2f586fab35b3bee2e5dd43a51c55ce9ac638cee2971ba96e4c958",
