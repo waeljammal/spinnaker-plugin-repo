@@ -136,5 +136,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.10/Armory.RandomWaitPlugin2-1.0.10.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.SpringExamplePlugin",
+      "description": "An example of a Spring based plugin that requires no extension points.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "v1.0.5",
+          "date": "2020-02-26T04:37:26.016Z",
+          "requires": "orca\u003e=0.0.0",
+          "sha512sum": "8d26ddcb3e33fa76770f42724fbe5d4470ea097509cf672469a9ec6e9638fa7e3c2c07c9f709cdebe355750f1a2d8bc4d7811d51d9c0e460982b3d0a3c7860dc",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.5/springExamplePlugin-v1.0.5.zip"
+        }
+      ]
     }
   ]
