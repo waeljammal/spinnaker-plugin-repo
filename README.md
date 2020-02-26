@@ -1,6 +1,6 @@
 This is an example plugin repository that references all example plugins.
 
-Adding the following to your orca.yml config will resolve and enable the latest RandomWaitPlugin example plugin at startup.
+Adding the following to your orca.yml config will load and start the latest RandomWaitPlugin example plugin during app startup.
 ```
 spinnaker:
   extensibility:
