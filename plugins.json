@@ -5,6 +5,14 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
+          "version": "1.0.15",
+          "date": "2020-02-26T17:02:30.666Z",
+          "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
+          "sha512sum": "58437ae45cdcf44182b4e26379c6363d66b924445c81904f5dbf64441ba94e1b36d3b23557ecc3c6ff96dc5499f40cd1392f170bb3be3349a7c681ffaf26419d",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.15/pf4jStagePlugin-v1.0.15.zip"
+        },
+        {
           "version": "1.0.14",
           "date": "2020-02-26T04:24:32.070Z",
           "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
