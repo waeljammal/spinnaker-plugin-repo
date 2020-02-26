@@ -9,15 +9,15 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-      - name: echo debug info
+      - name: add release to plugin repo
         run: |
           echo "Go run addPluginReleaseToRepo: $(go run .github/workflows/addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
-      - name: Commit files
+      - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Add plugin release ${{ github.event.client_payload.released.id }} ${{ github.event.client_payload.released.releases[0].version }}" -a
-      - name: Push changes
+      - name: push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
