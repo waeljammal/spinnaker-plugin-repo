@@ -14,3 +14,7 @@ jobs:
         run: |
           echo On Plugin Release!
           echo "Go run addPluginReleaseToRepo: $(go run .github/workflows/addPluginReleaseToRepo.go '${{ toJson(github.event.client_payload) }}')"
+          echo "Github Actor: ${GITHUB_ACTOR}"
+          echo "Payload ${{ toJson(github.event.client_payload) }}"
+          echo "Org ${{ github.event.client_payload.org }}"
+          echo "Version ${{ github.event.client_payload.released.releases[0].version }}"
