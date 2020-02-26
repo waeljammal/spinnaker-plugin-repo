@@ -2,11 +2,14 @@
     {
       "id": "pf4JStagePlugin",
       "description": "Example of a plugin extending the Spinnaker backend PF4J extension points",
+      "provider": "",
       "releases": [
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
           "requires": "orca",
+          "sha512sum": "",
+          "state": "",
           "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.0/Armory.RandomWaitPlugin-1.0.0.zip"
         }
       ]
@@ -14,11 +17,14 @@
     {
       "id": "springExamplePlugin",
       "description": "Example of a plugin extending the Spinnaker backend with Spring",
+      "provider": "",
       "releases": [
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
           "requires": "orca",
+          "sha512sum": "",
+          "state": "",
           "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.0/Armory.SpringExamplePlugin-1.0.0.zip"
         }
       ]
@@ -26,11 +32,14 @@
     {
       "id": "pf4jPluginWithoutExtensionPoint",
       "description": "Example of a plugin extending the Spinnaker backend PF4J, but without a defined extension points",
+      "provider": "",
       "releases": [
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
           "requires": "orca",
+          "sha512sum": "",
+          "state": "",
           "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.0/Armory.SillySecretsPlugin-1.0.0.zip"
         }
       ]
@@ -38,13 +47,54 @@
     {
       "id": "mixedPf4jAndSpringPlugin",
       "description": "Example of a plugin extending the Spinnaker backend with a mix of PF4J and Spring",
+      "provider": "",
       "releases": [
         {
           "version": "1.0.0",
           "date": "Jan 29, 2019 11:00:00 AM",
           "requires": "orca",
+          "sha512sum": "",
+          "state": "",
           "url": "https://github.com/spinnaker-plugin-examples/mixedPf4jAndSpringPlugin/releases/download/v1.0.0/Armory.MixedPf4jAndSpringPlugin-1.0.0.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.RandomWaitPlugin",
+      "description": "Another example of a PF4J based plugin, that provides a new stage.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "v1.0.10",
+          "date": "2020-02-24T20:46:40.585Z",
+          "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
+          "sha512sum": "fd3b157d429656b7e6c2576a206400ba64f0ac351448d91aa0ed7bedcb4af58f6e2aaf6def20ab2a78b1cb3ae0e11c35ad0b882fcb603dfdb654a23abb2c221a",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.10/Armory.RandomWaitPlugin-1.0.10.zip"
+        },
+        {
+          "version": "v1.0.9",
+          "date": "2020-02-24T20:46:40.585Z",
+          "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
+          "sha512sum": "fd3b157d429656b7e6c2576a206400ba64f0ac351448d91aa0ed7bedcb4af58f6e2aaf6def20ab2a78b1cb3ae0e11c35ad0b882fcb603dfdb654a23abb2c221a",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.9/Armory.RandomWaitPlugin-1.0.9.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.RandomWaitPlugin2",
+      "description": "Another example of a PF4J based plugin, that provides a new stage.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "v1.0.10",
+          "date": "2020-02-24T20:46:40.585Z",
+          "requires": "orca\u003e=0.0.0,deck\u003e=0.0.0",
+          "sha512sum": "fd3b157d429656b7e6c2576a206400ba64f0ac351448d91aa0ed7bedcb4af58f6e2aaf6def20ab2a78b1cb3ae0e11c35ad0b882fcb603dfdb654a23abb2c221a",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.0.10/Armory.RandomWaitPlugin2-1.0.10.zip"
+        }
+      ]
     }
-]
+  ]
