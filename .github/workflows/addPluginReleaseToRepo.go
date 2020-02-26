@@ -4,6 +4,7 @@ import (
     "encoding/json"
     "io/ioutil"
     "os"
+    "strings"
 )
 
 func check(e error) {
@@ -58,8 +59,11 @@ func main() {
 func addReleaseToPlugins(releaseEvent PluginReleaseEvent, existingPlugins []Plugin) []Plugin {
     releasedPlugin := releaseEvent.Released
     release := releasedPlugin.Releases[0]
-    version := release.Version
-    release.Url = "https://github.com/" + releaseEvent.Org + "/" + releaseEvent.Repo + "/releases/download/" + version + "/" + releaseEvent.Repo + "-" + version + ".zip"
+    release.Url = "https://github.com/" + releaseEvent.Org + "/" + releaseEvent.Repo + "/releases/download/" + release.Version + "/" + releaseEvent.Repo + "-" + release.Version + ".zip"
+    if strings.HasPrefix(release.Version,"v") {
+        // the plugins version is supplied with a v from the bundler, but fails when update manager compares versions
+        release.Version = release.Version[1:]
+    }
     releasedPlugin.Releases = []Release {
         release,
     }

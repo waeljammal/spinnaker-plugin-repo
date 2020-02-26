@@ -1,8 +1,8 @@
 package main
 
 import (
-    "reflect"
-    "testing"
+	"reflect"
+	"testing"
 )
 
 func TestAddingReleaseToEmptyRepo(t *testing.T) {
@@ -30,7 +30,7 @@ func TestAddingReleaseToEmptyRepo(t *testing.T) {
 
     expectedReleases := []Release {
         {
-            "v1.2.0",
+            "1.2.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -45,6 +45,7 @@ func TestAddingReleaseToEmptyRepo(t *testing.T) {
             expectedReleases,
         },
     }
+
     if !reflect.DeepEqual(result, expectedPlugins) {
         t.Errorf("Release was not added correctly: %s", result)
     }
@@ -72,7 +73,7 @@ func TestAddingReleaseToRepoWithOtherPlugins(t *testing.T) {
 
     existingReleases := []Release {
         {
-            "v1.0.0",
+            "1.0.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -91,7 +92,7 @@ func TestAddingReleaseToRepoWithOtherPlugins(t *testing.T) {
 
     expectedReleases := []Release {
         {
-            "v1.2.0",
+            "1.2.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -134,7 +135,7 @@ func TestAddingReleaseToRepoWithExistingReleases(t *testing.T) {
 
     existingReleases := []Release {
         {
-            "v1.0.0",
+            "1.0.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -153,7 +154,7 @@ func TestAddingReleaseToRepoWithExistingReleases(t *testing.T) {
 
     expectedReleases := []Release {
         {
-            "v1.2.0",
+            "1.2.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -199,7 +200,7 @@ func TestAddingReleaseToRepoWithTheSameRelease(t *testing.T) {
 
     existingReleases := []Release {
         {
-            "v1.2.0",
+            "1.2.0",
             "2020-01-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -207,7 +208,7 @@ func TestAddingReleaseToRepoWithTheSameRelease(t *testing.T) {
             "https://github.com/org1/repo0/releases/download/v1.0.0/repo1-v1.0.0.zip",
         },
         {
-            "v1.0.0",
+            "1.0.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
@@ -226,7 +227,7 @@ func TestAddingReleaseToRepoWithTheSameRelease(t *testing.T) {
 
     expectedReleases := []Release {
         {
-            "v1.2.0",
+            "1.2.0",
             "2020-02-24T20:46:40.585Z",
             "orca>=0.0.0",
             "asdf",
