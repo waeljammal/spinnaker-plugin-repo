@@ -1,6 +1,7 @@
 package main
 
 import (
+    "bytes"
     "encoding/json"
     "io/ioutil"
     "os"
@@ -49,9 +50,17 @@ func main() {
     check(pluginsErr)
 
     updatedPlugins := addReleaseToPlugins(pluginReleaseEvent, plugins)
-    updatedPluginsJson, pluginReleaseErr := json.MarshalIndent(updatedPlugins, "  ", "  ")
-    check(pluginReleaseErr)
-    pluginsJsonWriteErr := ioutil.WriteFile("plugins.json", updatedPluginsJson, 0644)
+
+    encodeBuffer := new(bytes.Buffer)
+    enc := json.NewEncoder(encodeBuffer)
+    enc.SetEscapeHTML(false)
+    encodeErr := enc.Encode(updatedPlugins)
+    check(encodeErr)
+    var indentBuffer bytes.Buffer
+    indentErr := json.Indent(&indentBuffer, encodeBuffer.Bytes(), "  ", "  ")
+    check(indentErr)
+
+    pluginsJsonWriteErr := ioutil.WriteFile("plugins.json", indentBuffer.Bytes(), 0644)
     check(pluginsJsonWriteErr)
 }
 
