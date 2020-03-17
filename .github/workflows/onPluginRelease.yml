@@ -1,6 +1,8 @@
 name: On Plugin Release
 
-on: repository_dispatch
+on:
+  repository_dispatch:
+    types: onPluginRelease
 
 jobs:
   build:
