@@ -7,6 +7,7 @@ spinnaker:
     plugins:
       Armory.RandomWaitPlugin:
         enabled: true
+        version: 1.0.16
         extensions:
           armory.randomWaitStage:
             enabled: true
