@@ -129,5 +129,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/waitForStableManifestPlugin/releases/download/v1.0.0/waitForStableManifestPlugin-v1.0.0.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.PolicyEngine",
+      "description": "This plugin provides support for validating pipelines with the policy engine.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "0.0.0",
+          "date": "2020-04-02T15:30:23.557Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "b8d81fb426882fceaad708526a0d77a5974289848f1ddce937d0828a2af617a5b5363c80d58c27e4a7eef7de15ab486078c286fb2a08ee8bf63b40b844e793bc",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/policy-engine/releases/download/v0.0.0/policy-engine-v0.0.0.zip"
+        }
+      ]
     }
   ]
