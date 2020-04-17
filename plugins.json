@@ -52,6 +52,14 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
+          "version": "1.0.8",
+          "date": "2020-04-17T16:32:00.301Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "8660f455814107873ed724b300f33fc7cdbbfa96cbeda27a8bf989c6494fae8ba0ba50a9bf7964380d4a0b5a6c79f12903a7d678e3e4aecd29b804fce4b2f3a9",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.8/springExamplePlugin-v1.0.8.zip"
+        },
+        {
           "version": "1.0.7",
           "date": "2020-03-18T00:45:23.024Z",
           "requires": "orca>=0.0.0",
