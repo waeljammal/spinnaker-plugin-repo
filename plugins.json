@@ -138,6 +138,14 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
+          "version": "1.0.2",
+          "date": "2020-04-17T19:09:50.961Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "658dd80b668a705e45d0d35fd7995fe71d03fdfdee31eba2731da3af4d5e6b8446cc029c497428f6f4bdb6a4b512f5e3731577d363134666415db13b8a69c6e8",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/eventListenerPlugin/releases/download/v1.0.2/eventListenerPlugin-v1.0.2.zip"
+        },
+        {
           "version": "1.0.1",
           "date": "2020-03-10T04:23:46.030Z",
           "requires": "echo>=0.0.0",
