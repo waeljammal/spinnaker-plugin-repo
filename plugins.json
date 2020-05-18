@@ -5,6 +5,14 @@
       "provider": "https://github.com/spinnaker-plugin-examples",
       "releases": [
         {
+          "version": "1.1.11",
+          "date": "2020-05-18T19:45:29.569Z",
+          "requires": "orca>=8.0.0,deck>=0.0.0",
+          "sha512sum": "d7fdb1af12cc53d5b1e98e75b3669ffae2a0b7e4f9ae68f0c53d6152949ac29a75839dc3e21afe9f30898e327d0d5cc71432acf4bef4d4631d5db335a5e65f92",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jStagePlugin/releases/download/v1.1.11/pf4jStagePlugin-v1.1.11.zip"
+        },
+        {
           "version": "1.1.10",
           "date": "2020-05-18T17:08:15.936Z",
           "requires": "orca>=8.0.0,deck>=0.0.0",
