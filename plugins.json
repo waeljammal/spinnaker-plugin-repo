@@ -179,6 +179,14 @@
       "provider": "https://github.com/claymccoy",
       "releases": [
         {
+          "version": "1.0.10",
+          "date": "2020-05-18T20:09:52.572Z",
+          "requires": "clouddriver>=5.59.0,orca>=8.0.0",
+          "sha512sum": "dd93a888ff1036b249c02bc47ad3e55bc91520d1d39419840df6f3791105649d447bfb8f31e7cbfa41a17afb068a17153b4c509bad1cad3deee224c3aa970a5f",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.10/pf4jPluginWithoutExtensionPoint-v1.0.10.zip"
+        },
+        {
           "version": "1.0.9",
           "date": "2020-05-14T19:55:59.023Z",
           "requires": "clouddriver>=5.59.0,orca>=8.0.0",
