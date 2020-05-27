@@ -227,5 +227,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.5/pf4jPluginWithoutExtensionPoint-v1.0.5.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.KubernetesCRDHandler",
+      "description": "An example Kubernetes CRD handler",
+      "provider": "https://github.com/danielpeach",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "date": "2020-05-27T17:33:48.933Z",
+          "requires": "clouddriver>=0.0.0",
+          "sha512sum": "026b2ad98ec63d5020ef58f5439efa265c39a5a482f7280222484eb46f35a7a6d0109f50851656a477a46dc8cf74f1f39da0557bd4792c9089cdc5d978f93e0c",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/kubernetesCRDHandler/releases/download/v1.0.1/kubernetesCRDHandler-v1.0.1.zip"
+        }
+      ]
     }
   ]
