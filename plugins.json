@@ -250,5 +250,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/kubernetesCRDHandler/releases/download/v1.0.1/kubernetesCRDHandler-v1.0.1.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.FetchArtifactsStage",
+      "description": "An example of fetch artifacts from clouddriver in a custom pipeline stage.",
+      "provider": "https://github.com/spinnaker-plugin-examples",
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2020-06-16T18:54:57.034Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "294ee8ac037015a827add2d369b9d46d3d21add7b63dd51ec5e5d794e07676376f098d3cd26b72d0fc1b478d488b1e80c9b0a86d1d60312c26834335ff50ac84",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.2/fetchArtifactsStage-v1.0.2.zip"
+        }
+      ]
     }
   ]
