@@ -335,6 +335,14 @@
       "provider": "https://github.com/spinnaker-plugin-examples",
       "releases": [
         {
+          "version": "0.0.4",
+          "date": "2020-06-29T15:50:29.185Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "9b619d47800f8510bd4178d60eaedc0ce5f863bc4153aa8af35af0dcaad3f95074102d9517d02879d6fb5220abd54c1a809ab86ee9bcf20b4c062aa58f4bd36d",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.4/preconfiguredJob-v0.0.4.zip"
+        },
+        {
           "version": "0.0.3",
           "date": "2020-06-29T14:48:49.846Z",
           "requires": "orca>=0.0.0",
