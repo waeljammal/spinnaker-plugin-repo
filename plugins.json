@@ -328,5 +328,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.2/preconfiguredJob-v0.0.2.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.PreconfiguredJob",
+      "description": "A plugin that provides stage as a pre-configured job.",
+      "provider": "https://github.com/spinnaker-plugin-examples",
+      "releases": [
+        {
+          "version": "0.0.3",
+          "date": "2020-06-29T14:48:49.846Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "f7d9ca23da640332ef0ef03cc5af5c22bbe5d6c5d6c1ce800821f2a17157cf443d9124fe98886fb540dca8be7fa73e8b999ae9de15e96599c70b68c184bf4161",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.3/preconfiguredJob-v0.0.3.zip"
+        }
+      ]
     }
   ]
