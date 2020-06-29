@@ -313,5 +313,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.2/fetchArtifactsStage-v1.0.2.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.PreconfigureJob",
+      "description": "A plugin that provides stage as a pre-configured job.",
+      "provider": "https://github.com/spinnaker-plugin-examples",
+      "releases": [
+        {
+          "version": "0.0.2",
+          "date": "2020-06-29T13:52:01.706Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "a964e479ad904cf20fbca7948f68f552ee6f5dfe90a31672406f997cca0d1fff709c0eb2fb2685725f24e70f532a2804cbcd5a82791be0a9bca1d9431c288a58",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.2/preconfiguredJob-v0.0.2.zip"
+        }
+      ]
     }
   ]
