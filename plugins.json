@@ -367,5 +367,20 @@
           "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.3/preconfiguredJob-v0.0.3.zip"
         }
       ]
+    },
+    {
+      "id": "Armory.NotificationAgent",
+      "description": "An example Echo notification service",
+      "provider": "https://github.com/danielpeach",
+      "releases": [
+        {
+          "version": "0.0.3",
+          "date": "2020-07-31T15:06:27.091Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "16c3395e57d2abaa3ec8af8487bc4f6f80fd848515db0b1dd4ca88fc3dfa3b14259075384bd0c9220747e527836b1efd50d188a1937028cb05755733dd5def2b",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/notificationPlugin/releases/download/v0.0.3/notificationPlugin-v0.0.3.zip"
+        }
+      ]
     }
   ]
