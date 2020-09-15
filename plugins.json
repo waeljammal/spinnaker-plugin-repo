@@ -281,6 +281,14 @@
     "provider": "https://github.com/spinnaker-plugin-examples",
     "releases": [
       {
+        "version": "1.0.10",
+        "date": "2020-09-15T12:27:04.188Z",
+        "requires": "orca>=0.0.0",
+        "sha512sum": "43588b0a468c299311f020d26bb4ee6155325c79850b66012f2ba6fa8d61e454045c16669963a0f51c059be5418f1e71b154e18af1069df5d5b8956feee6c2f9",
+        "state": "RELEASE",
+        "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.10/fetchArtifactsStage-v1.0.10.zip"
+      },
+      {
         "version": "1.0.8",
         "date": "2020-06-22T13:03:42.691Z",
         "requires": "orca>=0.0.0",
