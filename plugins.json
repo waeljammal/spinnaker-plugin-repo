@@ -173,9 +173,9 @@
       "releases": [
         {
           "version": "1.21.4",
-          "date": "2020-11-12T21:23:36.892Z",
+          "date": "2020-11-12T23:19:35.915Z",
           "requires": "orca>=8.0.0",
-          "sha512sum": "d42a7ea069ff0eeee863d58152e050b539dd47601e1267ed242a2733eba3e8ab6fce1b8a0fa328c34d886ebb3e4f9a219da2691cfb8b115a5fa5e6656850311b",
+          "sha512sum": "485cac773580b569c366ad3f28c62a4d91a2718ba8ad92a5e9f9e535e58e270fa89e14acdf579ce9b219503f03c5738281b5e63984b8410d05cbcbe4ea2c1fb0",
           "state": "RELEASE",
           "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.21.4/springExamplePlugin-v1.21.4.zip"
         },
