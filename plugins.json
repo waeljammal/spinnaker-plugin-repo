@@ -414,6 +414,14 @@
       "provider": "https://github.com/danielpeach",
       "releases": [
         {
+          "version": "0.0.8",
+          "date": "2020-12-04T17:11:47.206084Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "f1ad7ea9b816567a622163b248b6c5e5d07ad7884517e74a6b20dff1da783523dc7137b82ddaa2a74c11ef6c4ba146449f83134413c18b8686bdeb166f4f0a92",
+          "state": "",
+          "url": "https://github.com/spinnaker-plugin-examples/notificationPlugin/releases/download/v0.0.8/notificationPlugin-v0.0.8.zip"
+        },
+        {
           "version": "0.0.5",
           "date": "2020-08-13T16:15:50.806Z",
           "requires": "echo>=0.0.0",
