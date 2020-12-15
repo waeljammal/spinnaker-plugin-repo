@@ -6,7 +6,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -49,7 +58,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -92,7 +110,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -135,7 +162,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -182,7 +218,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -225,7 +270,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -268,7 +322,16 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.24.0"
+          ],
+          "service": "orca",
+          "version": "2.18.0-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -311,7 +374,8 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
@@ -354,7 +418,8 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.23.4"
+            "1.23.4",
+            "1.23.5"
           ],
           "service": "orca",
           "version": "2.17.1-20201208101954"
