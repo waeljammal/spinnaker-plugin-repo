@@ -4,13 +4,22 @@
     {
       "compatibility": [
         {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
           "outcome": "failure",
           "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -33,13 +42,22 @@
     {
       "compatibility": [
         {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
           "outcome": "failure",
           "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -68,7 +86,8 @@
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -93,11 +112,20 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -122,11 +150,20 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -151,11 +188,20 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -180,11 +226,20 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
@@ -209,11 +264,20 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.23.4",
             "1.23.3",
             "1.23.2",
             "1.23.1",
-            "1.23.0"
+            "1.23.0",
+            "1.23.5"
           ],
           "service": "echo",
           "version": "2.15.0-20201009170017"
