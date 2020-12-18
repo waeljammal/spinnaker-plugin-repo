@@ -2,23 +2,68 @@
   "id": "Armory.NotificationAgent",
   "releases": [
     {
-      "compatibility": [],
+      "compatibility": [
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        }
+      ],
       "version": "0.0.8"
     },
     {
-      "compatibility": [],
+      "compatibility": [
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        }
+      ],
       "version": "0.0.7"
     },
     {
-      "compatibility": [],
+      "compatibility": [
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        }
+      ],
       "version": "0.0.6"
     },
     {
-      "compatibility": [],
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        }
+      ],
       "version": "0.0.5"
     },
     {
-      "compatibility": [],
+      "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.0"
+          ],
+          "service": "echo",
+          "version": "2.15.1-20201208200018"
+        }
+      ],
       "version": "0.0.4"
     }
   ]
