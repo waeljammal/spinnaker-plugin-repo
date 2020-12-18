@@ -1,0 +1,25 @@
+{
+  "id": "Armory.NotificationAgent",
+  "releases": [
+    {
+      "compatibility": [],
+      "version": "0.0.8"
+    },
+    {
+      "compatibility": [],
+      "version": "0.0.7"
+    },
+    {
+      "compatibility": [],
+      "version": "0.0.6"
+    },
+    {
+      "compatibility": [],
+      "version": "0.0.5"
+    },
+    {
+      "compatibility": [],
+      "version": "0.0.4"
+    }
+  ]
+}
