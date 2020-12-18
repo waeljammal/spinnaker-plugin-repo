@@ -118,6 +118,15 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.23.5",
+            "1.23.4"
+          ],
+          "service": "orca",
+          "version": "2.17.1-20201208101954"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.23.3",
             "1.23.2",
             "1.23.1",
@@ -133,6 +142,17 @@
           ],
           "service": "orca",
           "version": "2.16.1-20201208040018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.22.3",
+            "1.22.2",
+            "1.22.1",
+            "1.22.0"
+          ],
+          "service": "orca",
+          "version": "2.16.0-20200817170018"
         }
       ],
       "version": "1.1.15"
