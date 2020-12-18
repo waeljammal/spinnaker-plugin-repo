@@ -1,0 +1,25 @@
+{
+  "id": "Armory.RandomWaitPlugin",
+  "releases": [
+    {
+      "compatibility": [],
+      "version": "1.1.17"
+    },
+    {
+      "compatibility": [],
+      "version": "1.1.16"
+    },
+    {
+      "compatibility": [],
+      "version": "1.1.15"
+    },
+    {
+      "compatibility": [],
+      "version": "1.1.14"
+    },
+    {
+      "compatibility": [],
+      "version": "1.1.13"
+    }
+  ]
+}
