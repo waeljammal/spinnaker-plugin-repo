@@ -6,6 +6,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.24.1"
+          ],
+          "service": "echo",
+          "version": "2.15.2-20201216030017"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.24.0"
           ],
           "service": "echo",
@@ -16,6 +24,14 @@
     },
     {
       "compatibility": [
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.1"
+          ],
+          "service": "echo",
+          "version": "2.15.2-20201216030017"
+        },
         {
           "outcome": "success",
           "platformVersions": [
@@ -32,6 +48,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.24.1"
+          ],
+          "service": "echo",
+          "version": "2.15.2-20201216030017"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.24.0"
           ],
           "service": "echo",
@@ -45,6 +69,14 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.24.1"
+          ],
+          "service": "echo",
+          "version": "2.15.2-20201216030017"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
             "1.24.0"
           ],
           "service": "echo",
@@ -55,6 +87,14 @@
     },
     {
       "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.24.1"
+          ],
+          "service": "echo",
+          "version": "2.15.2-20201216030017"
+        },
         {
           "outcome": "failure",
           "platformVersions": [
