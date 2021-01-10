@@ -6,7 +6,8 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.24.1"
+            "1.24.1",
+            "1.24.2"
           ],
           "service": "echo",
           "version": "2.15.2-20201216030017"
@@ -27,7 +28,8 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.24.1"
+            "1.24.1",
+            "1.24.2"
           ],
           "service": "echo",
           "version": "2.15.2-20201216030017"
@@ -48,7 +50,8 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.24.1"
+            "1.24.1",
+            "1.24.2"
           ],
           "service": "echo",
           "version": "2.15.2-20201216030017"
@@ -69,7 +72,8 @@
         {
           "outcome": "failure",
           "platformVersions": [
-            "1.24.1"
+            "1.24.1",
+            "1.24.2"
           ],
           "service": "echo",
           "version": "2.15.2-20201216030017"
@@ -90,7 +94,8 @@
         {
           "outcome": "failure",
           "platformVersions": [
-            "1.24.1"
+            "1.24.1",
+            "1.24.2"
           ],
           "service": "echo",
           "version": "2.15.2-20201216030017"
