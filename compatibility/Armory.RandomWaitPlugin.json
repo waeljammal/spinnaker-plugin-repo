@@ -6,7 +6,9 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.24.0"
+            "1.24.0",
+            "1.24.2",
+            "1.24.1"
           ],
           "service": "orca",
           "version": "2.18.0-20201208200018"
@@ -58,7 +60,9 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.24.0"
+            "1.24.0",
+            "1.24.2",
+            "1.24.1"
           ],
           "service": "orca",
           "version": "2.18.0-20201208200018"
@@ -110,7 +114,9 @@
         {
           "outcome": "success",
           "platformVersions": [
-            "1.24.0"
+            "1.24.0",
+            "1.24.2",
+            "1.24.1"
           ],
           "service": "orca",
           "version": "2.18.0-20201208200018"
@@ -162,7 +168,9 @@
         {
           "outcome": "unknown",
           "platformVersions": [
-            "1.24.0"
+            "1.24.0",
+            "1.24.2",
+            "1.24.1"
           ],
           "service": "orca",
           "version": "2.18.0-20201208200018"
