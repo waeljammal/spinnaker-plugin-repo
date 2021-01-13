@@ -164,57 +164,7 @@
       "version": "1.1.15"
     },
     {
-      "compatibility": [
-        {
-          "outcome": "unknown",
-          "platformVersions": [
-            "1.24.0",
-            "1.24.2",
-            "1.24.1"
-          ],
-          "service": "orca",
-          "version": "2.18.0-20201208200018"
-        },
-        {
-          "outcome": "unknown",
-          "platformVersions": [
-            "1.23.5",
-            "1.23.4"
-          ],
-          "service": "orca",
-          "version": "2.17.1-20201208101954"
-        },
-        {
-          "outcome": "unknown",
-          "platformVersions": [
-            "1.23.3",
-            "1.23.2",
-            "1.23.1",
-            "1.23.0"
-          ],
-          "service": "orca",
-          "version": "2.17.0-20201014010017"
-        },
-        {
-          "outcome": "unknown",
-          "platformVersions": [
-            "1.22.4"
-          ],
-          "service": "orca",
-          "version": "2.16.1-20201208040018"
-        },
-        {
-          "outcome": "unknown",
-          "platformVersions": [
-            "1.22.3",
-            "1.22.2",
-            "1.22.1",
-            "1.22.0"
-          ],
-          "service": "orca",
-          "version": "2.16.0-20200817170018"
-        }
-      ],
+      "compatibility": [],
       "version": "1.1.14"
     },
     {
