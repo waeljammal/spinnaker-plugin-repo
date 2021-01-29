@@ -189,6 +189,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.22.6"
+          ],
+          "service": "orca",
+          "version": "2.16.2-20210127164935"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.22.5",
             "1.22.4"
           ],
