@@ -86,6 +86,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.24.4"
+          ],
+          "service": "orca",
+          "version": "2.18.1-20210128030017"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.24.3",
             "1.24.2",
             "1.24.1",
@@ -155,6 +163,14 @@
     },
     {
       "compatibility": [
+        {
+          "outcome": "success",
+          "platformVersions": [
+            "1.24.4"
+          ],
+          "service": "orca",
+          "version": "2.18.1-20210128030017"
+        },
         {
           "outcome": "success",
           "platformVersions": [
