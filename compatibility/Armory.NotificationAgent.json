@@ -6,6 +6,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.25.0"
+          ],
+          "service": "echo",
+          "version": "2.16.0-20210208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.24.4",
             "1.24.3",
             "1.24.2",
@@ -25,6 +33,7 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.23.7",
             "1.23.6",
             "1.23.5",
             "1.23.4",
@@ -58,6 +67,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.25.0"
+          ],
+          "service": "echo",
+          "version": "2.16.0-20210208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.24.4",
             "1.24.3",
             "1.24.2",
@@ -77,6 +94,7 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.23.7",
             "1.23.6",
             "1.23.5",
             "1.23.4",
@@ -110,6 +128,14 @@
         {
           "outcome": "success",
           "platformVersions": [
+            "1.25.0"
+          ],
+          "service": "echo",
+          "version": "2.16.0-20210208200018"
+        },
+        {
+          "outcome": "success",
+          "platformVersions": [
             "1.24.4",
             "1.24.3",
             "1.24.2",
@@ -129,6 +155,7 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.23.7",
             "1.23.6",
             "1.23.5",
             "1.23.4",
@@ -162,6 +189,14 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.25.0"
+          ],
+          "service": "echo",
+          "version": "2.16.0-20210208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
             "1.24.4",
             "1.24.3",
             "1.24.2",
@@ -181,6 +216,7 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.23.7",
             "1.23.6",
             "1.23.5",
             "1.23.4",
@@ -214,6 +250,14 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.25.0"
+          ],
+          "service": "echo",
+          "version": "2.16.0-20210208200018"
+        },
+        {
+          "outcome": "failure",
+          "platformVersions": [
             "1.24.4",
             "1.24.3",
             "1.24.2",
@@ -233,6 +277,7 @@
         {
           "outcome": "failure",
           "platformVersions": [
+            "1.23.7",
             "1.23.6",
             "1.23.5",
             "1.23.4",
