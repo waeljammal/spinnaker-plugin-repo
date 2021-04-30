@@ -4,6 +4,14 @@
     {
       "compatibility": [
         {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.26.1"
+          ],
+          "service": "orca",
+          "version": "2.20.0-20210422230020"
+        },
+        {
           "outcome": "success",
           "platformVersions": [
             "1.25.4",
@@ -97,6 +105,14 @@
     {
       "compatibility": [
         {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.26.1"
+          ],
+          "service": "orca",
+          "version": "2.20.0-20210422230020"
+        },
+        {
           "outcome": "success",
           "platformVersions": [
             "1.25.4",
@@ -189,6 +205,14 @@
     },
     {
       "compatibility": [
+        {
+          "outcome": "failure",
+          "platformVersions": [
+            "1.26.1"
+          ],
+          "service": "orca",
+          "version": "2.20.0-20210422230020"
+        },
         {
           "outcome": "success",
           "platformVersions": [
