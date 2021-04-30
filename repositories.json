@@ -1,6 +1,6 @@
 [
     {
-      "id": "examplePluginsRepo",
-      "url": "https://raw.githubusercontent.com/spinnaker-plugin-examples/examplePluginRepository/master/plugins.json"
+      "id": "pluginsRepo",
+      "url": "https://raw.githubusercontent.com/waeljammal/spinnaker-plugin-repo/master/plugins.json"
     }
 ]
