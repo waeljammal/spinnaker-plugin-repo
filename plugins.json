@@ -5,6 +5,14 @@
     "provider": "https://github.com/waeljammal",
     "releases": [
       {
+        "version": "0.0.11",
+        "date": "2020-12-04T17:11:47.206084Z",
+        "requires": "echo>=0.0.0",
+        "sha512sum": "b5e2919312201560ef13dae7b9623b6b489e627c9b410ac77a95dc81e98709d5cfd0e62fade398ba2685725aa386afc8f0d131c69c169c3bf7ef512d237eaa5d",
+        "state": "",
+        "url": "https://github.com/waeljammal/notificationPlugin/releases/download/0.0.11/notificationPlugin-v0.0.11.zip"
+      },
+      {
         "version": "0.0.10",
         "date": "2020-12-04T17:11:47.206084Z",
         "requires": "echo>=0.0.0",
