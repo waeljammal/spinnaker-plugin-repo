@@ -5,6 +5,13 @@
     "provider": "https://github.com/waeljammal",
     "releases": [
       {
+        "version": "v0.0.12",
+        "date": "2021-04-30T19:53:03.601752Z",
+        "requires": "echo>=0.0.0",
+        "sha512sum": "2122f8288672ec0e425822dee5c553e38a804594cfb90f4e61b7070b7ac5f37114d0a7c41907f34d04d2030f7202170b3a135eb029816aa11c5a6322701c805c",
+        "preferred": true
+      },
+      {
         "version": "0.0.11",
         "date": "2020-12-04T17:11:47.206084Z",
         "requires": "echo>=0.0.0",
