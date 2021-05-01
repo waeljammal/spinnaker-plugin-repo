@@ -5,27 +5,11 @@
     "provider": "https://github.com/waeljammal",
     "releases": [
       {
-        "version": "v0.0.12",
-        "date": "2021-04-30T19:53:03.601752Z",
+        "version": "v0.0.13",
+        "date": "2021-05-01T16:55:15.575359Z",
         "requires": "echo>=0.0.0",
-        "sha512sum": "2122f8288672ec0e425822dee5c553e38a804594cfb90f4e61b7070b7ac5f37114d0a7c41907f34d04d2030f7202170b3a135eb029816aa11c5a6322701c805c",
-        "preferred": true
-      },
-      {
-        "version": "0.0.11",
-        "date": "2020-12-04T17:11:47.206084Z",
-        "requires": "echo>=0.0.0",
-        "sha512sum": "b5e2919312201560ef13dae7b9623b6b489e627c9b410ac77a95dc81e98709d5cfd0e62fade398ba2685725aa386afc8f0d131c69c169c3bf7ef512d237eaa5d",
-        "state": "",
-        "url": "https://github.com/waeljammal/notificationPlugin/releases/download/0.0.11/notificationPlugin-v0.0.11.zip"
-      },
-      {
-        "version": "0.0.10",
-        "date": "2020-12-04T17:11:47.206084Z",
-        "requires": "echo>=0.0.0",
-        "sha512sum": "1776d03df5df4c5b1616c72536755d9a1d8381bdfb16e2c10cae0146e5fc4b2991151f02b13605b25dcb9b0fe3816c6f7627f542e28d3f1a3fdb12ffd4db7680",
-        "state": "",
-        "url": "https://github.com/waeljammal/notificationPlugin/releases/download/0.0.10/notificationPlugin-v0.0.10.zip"
+        "sha512sum": "2fcd8907341e149b586cc41cf60476f586b695019d7eac1edfedbf9514c3959e8d67ae7c553d1d40445c3a67fc68755986e5975ffbdae55751fbd72e13b9215c",
+        "preferred": false
       }
     ]
   }
