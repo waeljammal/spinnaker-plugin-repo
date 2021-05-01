@@ -9,7 +9,8 @@
         "date": "2021-05-01T16:55:15.575359Z",
         "requires": "echo>=0.0.0",
         "sha512sum": "2fcd8907341e149b586cc41cf60476f586b695019d7eac1edfedbf9514c3959e8d67ae7c553d1d40445c3a67fc68755986e5975ffbdae55751fbd72e13b9215c",
-        "preferred": false
+        "preferred": true,
+        "url": "https://github.com/waeljammal/notificationPlugin/releases/download/0.0.13/notificationPlugin-v0.0.13.zip"
       }
     ]
   }
